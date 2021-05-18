@@ -1592,16 +1592,16 @@ La barre du millieu
   .articleCours {
     height: 10vh;
   }
-  .articleCours p:first-child {
+  .articleCours h3:first-child {
     display: none;
   }
-  .articleCours p:nth-child(2) {
+  .articleCours h3:nth-child(2) {
     transform: rotateZ(-90deg);
   }
-  .articleCours p:nth-child(2) a {
+  .articleCours h3:nth-child(2) a {
     color: gold;
   }
-  .articleCours p:nth-child(3) {
+  .articleCours h3:nth-child(3) {
     display: none;
   }
 }
@@ -1622,16 +1622,16 @@ La barre du millieu
   .articleCoursSpecial {
     height: 10vh;
   }
-  .articleCoursSpecial p:first-child {
+  .articleCoursSpecial h3:first-child {
     display: none;
   }
-  .articleCoursSpecial p:nth-child(2) {
+  .articleCoursSpecial h3:nth-child(2) {
     transform: rotateZ(-90deg);
   }
-  .articleCoursSpecial p:nth-child(2) a {
+  .articleCoursSpecial h3:nth-child(2) a {
     color: gold;
   }
-  .articleCoursSpecial p:nth-child(3) {
+  .articleCoursSpecial h3:nth-child(3) {
     display: none;
   }
 }

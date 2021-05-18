@@ -14,7 +14,7 @@ global $tPropriété;
 <?php else: ?>
 	<article class="articleCours <?php echo $typeCours ?>">
 <?php endif; ?>
-	<p id="nomCours"><?php echo $typeCours ?>  </p>	
+	<h3 id="nomCours <?php echo $typeCours ?>"><?php echo $typeCours ?>  </h3>	
 	<p><a href="<?php echo get_permalink() ?>"><?php echo $tPropriété['sigle'] ?></a> </p>
 	<p><?php echo $tPropriété['nbHeure'] ?> </p>
 </article>
