@@ -26,7 +26,20 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 				convertirTableau($tPropriété);
-				get_template_part( 'template-parts/content', 'cours-liste' );
+
+				if ($tPropriété['session'] != $precedent): ?>
+				<h2><?php echo $tPropriété['session'] ?></h2>
+				<section class="listeCours">
+				<?php $precedent = $tPropriété['session'] ?>
+					<?php if ("XXXXXX" != $precedent)	: ?>
+						</section>
+						
+					<?php endif; ?>	
+					
+					
+				<?php endif ?>
+
+				<?php get_template_part( 'template-parts/content', 'cours-liste' );
 				
 
 			endwhile;

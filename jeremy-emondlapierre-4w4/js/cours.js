@@ -3,10 +3,9 @@
     //let image = document.querySelectorAll('.articleCours Image 2d/3d');
     //let web = document.querySelectorAll('.articleCours Web');
     //let jeu = document.querySelectorAll('.articleCours Jeu');
+    let nomCours = document.querySelectorAll("nomCours");
 
-    specifique.addEventListener('mousedown', function(){
-        
-        
+    nomCours.addEventListener('mousedown', function(){
+        console.log("Test");
     })
-			
 }())	
