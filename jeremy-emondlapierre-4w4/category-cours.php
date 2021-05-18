@@ -20,8 +20,9 @@ get_header();
 				the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
+			<section class="listeCours"> 
 			<?php
+			$precedent = "XXXXXX";
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
@@ -39,7 +40,7 @@ get_header();
 
 		endif;
 		?>
-
+		</section>
 	</main><!-- #main -->
 
 <?php
