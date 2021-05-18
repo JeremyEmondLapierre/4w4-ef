@@ -6,6 +6,8 @@
     align-items: center;
     margin-bottom: 20px;
     border: 1px solid black;
+    width: 20vw;
+    margin: 10px;
 
     @media (max-width : 800px){
         height: 10vh;
@@ -31,6 +33,8 @@
     align-items: center;
     margin-bottom: 20px;
     border: 1px dashed black;
+    width: 20vw;
+    margin: 10px;
 
     @media (max-width : 800px){
         height: 10vh;
@@ -50,7 +54,11 @@
 }
 .listeCours{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-right: 35px !important;
     margin-left: 20px !important;
+    h2{
+        width: 100vw;
+    }
 }

@@ -1584,6 +1584,8 @@ La barre du millieu
   align-items: center;
   margin-bottom: 20px;
   border: 1px solid black;
+  width: 20vw;
+  margin: 10px;
 }
 
 @media (max-width: 800px) {
@@ -1612,6 +1614,8 @@ La barre du millieu
   align-items: center;
   margin-bottom: 20px;
   border: 1px dashed black;
+  width: 20vw;
+  margin: 10px;
 }
 
 @media (max-width: 800px) {
@@ -1634,8 +1638,13 @@ La barre du millieu
 
 .listeCours {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-right: 35px !important;
   margin-left: 20px !important;
+}
+
+.listeCours h2 {
+  width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */
