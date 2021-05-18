@@ -6,7 +6,22 @@
     align-items: center;
     margin-bottom: 20px;
     border: 1px solid black;
-    width: 100vw;
+
+    @media (max-width : 800px){
+        height: 10vh;
+		p:first-child{
+            display: none;
+        }
+        p:nth-child(2){
+            transform: rotateZ(-90deg);
+            a{
+                color: 	rgb(255,215,0);
+            }
+        }
+        p:nth-child(3){
+            display: none;
+        }
+	}
 }
 .articleCoursSpecial{
     background-color: rgb(160, 151, 151);
@@ -16,11 +31,26 @@
     align-items: center;
     margin-bottom: 20px;
     border: 1px dashed black;
-    width: 100vw;
+
+    @media (max-width : 800px){
+        height: 10vh;
+		p:first-child{
+            display: none;
+        }
+        p:nth-child(2){
+            transform: rotateZ(-90deg);
+            a{
+                color: 	rgb(255,215,0);
+            }
+        }
+        p:nth-child(3){
+            display: none;
+        }
+	}
 }
 .listeCours{
     display: flex;
     flex-direction: column;
-    margin-left: 0px !important;
-    width: 100vw;
+    margin-right: 35px !important;
+    margin-left: 20px !important;
 }

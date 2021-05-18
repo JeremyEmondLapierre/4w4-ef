@@ -1584,7 +1584,24 @@ La barre du millieu
   align-items: center;
   margin-bottom: 20px;
   border: 1px solid black;
-  width: 100vw;
+}
+
+@media (max-width: 800px) {
+  .articleCours {
+    height: 10vh;
+  }
+  .articleCours p:first-child {
+    display: none;
+  }
+  .articleCours p:nth-child(2) {
+    transform: rotateZ(-90deg);
+  }
+  .articleCours p:nth-child(2) a {
+    color: gold;
+  }
+  .articleCours p:nth-child(3) {
+    display: none;
+  }
 }
 
 .articleCoursSpecial {
@@ -1595,13 +1612,30 @@ La barre du millieu
   align-items: center;
   margin-bottom: 20px;
   border: 1px dashed black;
-  width: 100vw;
+}
+
+@media (max-width: 800px) {
+  .articleCoursSpecial {
+    height: 10vh;
+  }
+  .articleCoursSpecial p:first-child {
+    display: none;
+  }
+  .articleCoursSpecial p:nth-child(2) {
+    transform: rotateZ(-90deg);
+  }
+  .articleCoursSpecial p:nth-child(2) a {
+    color: gold;
+  }
+  .articleCoursSpecial p:nth-child(3) {
+    display: none;
+  }
 }
 
 .listeCours {
   display: flex;
   flex-direction: column;
-  margin-left: 0px !important;
-  width: 100vw;
+  margin-right: 35px !important;
+  margin-left: 20px !important;
 }
 /*# sourceMappingURL=style.css.map */
