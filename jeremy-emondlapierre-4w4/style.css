@@ -715,7 +715,7 @@ textarea {
 	#colophon .site-footer	
 */
 .site-branding, #primary, #colophon {
-  margin-left: 3rem;
+  width: 100vw;
 }
 
 /*--------------------------------------------------------------
@@ -1582,20 +1582,26 @@ La barre du millieu
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 100vw;
 }
 
 .articleCoursSpecial {
-  background-color: #db7070;
+  background-color: #a09797;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 20px;
+  border: 1px dashed black;
+  width: 100vw;
 }
 
 .listeCours {
   display: flex;
   flex-direction: column;
+  margin-left: 0px !important;
+  width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */

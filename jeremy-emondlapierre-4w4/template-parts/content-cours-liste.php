@@ -8,13 +8,12 @@
  */
 global $tPropriété;
 ?>
-
+<?php $typeCours = get_field("type_de_cours"); ?>
 <?php if(get_field("option")) : ?>
-<article class="articleCoursSpecial">
+	<article class="articleCoursSpecial <?php echo $typeCours ?>">
 <?php else: ?>
-<article class="articleCours">
+	<article class="articleCours <?php echo $typeCours ?>">
 <?php endif; ?>
-	<?php $typeCours = get_field("type_de_cours"); ?>
 	<p><?php echo $typeCours ?>  </p>	
 	<p><a href="<?php echo get_permalink() ?>"><?php echo $tPropriété['sigle'] ?></a> </p>
 	<p><?php echo $tPropriété['nbHeure'] ?> </p>
